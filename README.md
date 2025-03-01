@@ -62,6 +62,19 @@ Flags accounts/IPs that have failed more than 5 times in that period
 
 ![Screenshot (763)](https://github.com/user-attachments/assets/b7da95d0-cfa7-4e37-a5b1-5d3e4158f084)
 
+--Windows Event IDs for Authentication Monitoring
+
+```plaintext
+4624 – Successful login
+4625 – Failed login
+4648 – A login attempt was made with explicit credentials
+4675 – A privileged account was used to log in
+4776 – Domain controller attempted to validate credentials
+4768 – Kerberos authentication ticket (TGT) requested
+4769 – Service ticket requested (for lateral movement detection)
+4771 – Kerberos pre-authentication failed (could indicate brute-force attacks)
+```
+
 📊 Creating a Dashboard in Splunk
 
 1️⃣ Navigate to Dashboards in Splunk UI
